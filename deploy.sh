@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:jsban/learn-typescript.git master: gh-pages
+git push -f https://github.com/jsBan/learn-typescript.git master: gh-pages
 
 cd -
